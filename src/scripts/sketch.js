@@ -1,4 +1,3 @@
-import * as p5 from "p5";
 import { collideRectRect } from "p5collide"; 
 
 export default function sketch(p5){
@@ -93,11 +92,11 @@ export default function sketch(p5){
             }
 
             // console.log(currentActionDict)
-            for (var key in Direction) {
-                if (this.actionDict[key] > 0 && this.actionDict[key] >= moveAmount) {
-                    this.actionDict[key] -= moveAmount
+            for (var k in Direction) {
+                if (this.actionDict[k] > 0 && this.actionDict[k] >= moveAmount) {
+                    this.actionDict[k] -= moveAmount
                 } else {
-                    this.actionDict[key] = 0
+                    this.actionDict[k] = 0
                 }
                 // currentActionDict[key] = 0
             }
@@ -353,7 +352,7 @@ export default function sketch(p5){
     const agentShootInterval = 500 //ms
     const agentProjectileSpeed = 10
     const agentDamage = 10
-    const backgroundColor = p5.color(205);
+    // const backgroundColor = p5.color(205);
     
     const nObstacles = 15
     const obstaclSizeMin = 15
@@ -401,7 +400,7 @@ export default function sketch(p5){
         });
         
         
-        for (const x of Array(nObstacles).keys()) {
+        for (var i = 0 ; i < Array(nObstacles).keys(); i++) {
             newObstacle();
         }
         p5.frameRate(30);
