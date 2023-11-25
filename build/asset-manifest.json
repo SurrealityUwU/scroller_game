@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scroller_game/static/css/main.4a394378.css",
+    "main.js": "/scroller_game/static/js/main.ded24491.js",
+    "index.html": "/scroller_game/index.html",
+    "main.4a394378.css.map": "/scroller_game/static/css/main.4a394378.css.map",
+    "main.ded24491.js.map": "/scroller_game/static/js/main.ded24491.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a394378.css",
+    "static/js/main.ded24491.js"
+  ]
+}
