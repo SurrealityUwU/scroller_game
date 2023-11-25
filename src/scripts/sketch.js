@@ -20,7 +20,8 @@ export default function sketch(p5){
 
     const showHitBoxes = true;
 
-    const constPath = "http://127.0.0.1:3001/src/assets"
+    // const constPath = "http://127.0.0.1:3001/src/assets"
+    const constPath = "/src/assets/"
     let background = p5.loadImage(constPath + "/background/bg-preview-big.png")
     let playerSpriteStraight = p5.loadImage(constPath + "/player/sprites/player1.png")
     let playerSpriteUp = p5.loadImage(constPath + "/player/sprites/player3.png")
