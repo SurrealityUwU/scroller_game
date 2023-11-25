@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/scroller_game/static/css/main.dd129950.css",
-    "main.js": "/scroller_game/static/js/main.ded24491.js",
+    "main.js": "/scroller_game/static/js/main.fbba675f.js",
     "index.html": "/scroller_game/index.html",
     "main.dd129950.css.map": "/scroller_game/static/css/main.dd129950.css.map",
-    "main.ded24491.js.map": "/scroller_game/static/js/main.ded24491.js.map"
+    "main.fbba675f.js.map": "/scroller_game/static/js/main.fbba675f.js.map"
   },
   "entrypoints": [
     "static/css/main.dd129950.css",
-    "static/js/main.ded24491.js"
+    "static/js/main.fbba675f.js"
   ]
 }
