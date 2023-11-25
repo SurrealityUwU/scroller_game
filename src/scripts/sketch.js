@@ -18,7 +18,7 @@ export default function sketch(p5){
     const worldWidth = window.innerWidth;
     const worldHeight = window.innerHeight;
 
-    const showHitBoxes = true;
+    const showHitBoxes = false;
 
     // const constPath = "http://127.0.0.1:3001/src/assets"
     const constPath = "/assets"
