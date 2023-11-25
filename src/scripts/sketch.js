@@ -347,7 +347,7 @@ export default function sketch(p5){
     var obstacles = []
     var projectiles= []
     
-    const agentSpeed = 10
+    const agentSpeed = 20
     const agentWidth = 80
     const agentHeight = 63
     const agentShootInterval = 500 //ms
